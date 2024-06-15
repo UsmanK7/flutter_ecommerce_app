@@ -13,7 +13,12 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   iconsax: ^0.0.8
+  url_launcher: ^6.3.0
   get: ^4.6.6
+  http: ^1.2.1
+  intl: ^0.19.0
+  logger: ^2.3.0
+  get_storage: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -24,32 +29,38 @@ flutter:
 
 #----------------- ./ PACKAGES END-----------------#
 
-#----------------- LOCAL ASSETS -----------------#
+#--------------- LOCAL ASSETS ------------------#
   assets:
-    - assets/fonts
-    - assets/icons
-    - assets/images
-    - assets/logos
+    - assets/logos/
+    - assets/icons/brands/
+    - assets/images/content/
+    - assets/images/banners/
+    - assets/images/reviews/
+    - assets/images/products/
+    - assets/icons/categories/
+    - assets/images/animations/
+    - assets/icons/payment_methods/
+    - assets/images/on_boarding_images/
 
 
-#----------------- lOCAL Fonts-----------------#
-
+  #--------------- LOCAL FONTS ------------------#
   fonts:
     - family: Poppins
       fonts:
-        - asset: assets/fonts/Poppins-ExtraLight.ttf
-        weight: 200
         - asset: assets/fonts/Poppins-Light.ttf
-        weight: 300
+          weight: 300
         - asset: assets/fonts/Poppins-Regular.ttf
-        weight: 400
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
         - asset: assets/fonts/Poppins-Medium.ttf
-        weight: 500
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
         - asset: assets/fonts/Poppins-SemiBold.ttf
-        weight: 600
+          weight: 600
         - asset: assets/fonts/Poppins-Bold.ttf
-        weight: 700
-        - asset: assets/fonts/Poppins-ExtraBold.ttf
-        weight: 800
+          weight: 800
 
     
